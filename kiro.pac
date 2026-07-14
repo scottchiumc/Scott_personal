@@ -9,7 +9,7 @@
 // (Elastic) IP, and the port if you changed it from 3128.
 
 function FindProxyForURL(url, host) {
-    var SG     = "13.214.161.250:8080";   // <-- EDIT IP (and port if changed)
+    var SG     = "PROXY 13.214.161.250:8080";   // <-- EDIT IP (and port if changed)
     var DIRECT = "DIRECT";
 
     host = host.toLowerCase();
